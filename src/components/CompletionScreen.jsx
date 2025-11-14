@@ -1,15 +1,11 @@
 export default function CompletionScreen({ questions, answers }) {
   const handleClose = () => {
-    try {
-      window.close();
-      // If the tab wasn't opened by script, navigate away as a fallback
-      setTimeout(() => {
-        if (!document.hidden) {
-          window.location.href = "about:blank";
-        }
-      }, 200);
-    } catch {}
+    window.close();
+    setTimeout(() => {
+      window.location.href = "https://businesswith.se";
+    }, 100);
   };
+
   return (
     <div className="container">
       <div className="completion-card">
@@ -37,7 +33,7 @@ export default function CompletionScreen({ questions, answers }) {
           </div>
         </div>
         <button className="btn-secondary" onClick={handleClose}>
-          Close Page
+          Close
         </button>
         <p className="footer-text">UX Research Study • November 2025</p>
       </div>
