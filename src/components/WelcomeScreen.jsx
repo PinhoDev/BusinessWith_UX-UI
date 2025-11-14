@@ -32,7 +32,7 @@ export default function WelcomeScreen({ onStart }) {
               rel="noopener noreferrer"
               style={{ color: "#0d47a1", textDecoration: "underline" }}
             >
-              https://stage.businesswith.se/systemguiden/
+              https://businesswith.se/systemguiden/
             </a>
           </p>
           <p style={{ margin: "8px 0 0", fontSize: "13px", color: "#1565c0" }}>
